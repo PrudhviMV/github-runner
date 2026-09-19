@@ -1,7 +1,7 @@
 name: Create runner # workflow name
 on: workflow_dispatch
 jobs: 
-  create runner:
+  create-runner:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
